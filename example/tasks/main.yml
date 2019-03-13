@@ -1,0 +1,5 @@
+---
+- name: Generate data file from template
+  template:
+    src: person.j2
+    dest: "{{ some_file_path }}"
